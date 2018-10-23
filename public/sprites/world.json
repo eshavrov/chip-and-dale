@@ -1,0 +1,119 @@
+{
+     "imageURL" : "./img/level.png",
+     "tileWidth" : 16,
+     "tileHeight" :16,
+
+     "tiles" : [
+        {
+            "name": "test-1",
+            "index": [2, 0]
+        },  
+        {
+            "name": "test-2",
+            "index": [3, 0]
+        },  
+        {
+            "name": "box",
+            "index": [0, 0]
+        },         
+        {
+            "name": "sky",
+            "index": [1, 0]
+        },
+        {
+            "name": "ground0l",
+            "index": [0, 1]
+        },         
+        {
+            "name": "ground0r",
+            "index": [1, 1]
+        },
+        {
+            "name": "ground1l",
+            "index": [0, 2]
+        },         
+        {
+            "name": "ground1r",
+            "index": [1, 2]
+        },
+        {
+            "name": "wood0l",
+            "index": [2, 1]
+        },         
+        {
+            "name": "wood0r",
+            "index": [3, 1]
+        },
+        {
+            "name": "wood1l",
+            "index": [2, 2]
+        },         
+        {
+            "name": "wood1r",
+            "index": [3, 2]
+        },
+        {
+            "name": "pipe0l",
+            "index": [4, 1]
+        },         
+        {
+            "name": "pipe0r",
+            "index": [5, 1]
+        },
+        {
+            "name": "pipe1l",
+            "index": [4, 2]
+        },         
+        {
+            "name": "pipe1r",
+            "index": [5, 2]
+        },
+        {
+            "name": "pipe2l",
+            "index": [6, 1]
+        },         
+        {
+            "name": "pipe2r",
+            "index": [7, 1]
+        },
+        {
+            "name": "pipe3l",
+            "index": [6, 2]
+        },         
+        {
+            "name": "pipe3r",
+            "index": [7, 2]
+        },
+        {
+            "name": "bonus",
+            "index": [4, 0]
+        },
+        {
+            "name": "test-tube-0",
+            "index": [4, 3]
+        },
+        {
+            "name": "test-tube-1",
+            "index": [4, 4]
+        },
+        {
+            "name": "test-tube-2",
+            "index": [4, 5]
+        },
+        {
+            "name": "test-tube-3",
+            "index": [4, 6]
+        }
+    ],
+    "animations": [
+        {
+            "name": "test",
+            "frames": [
+                "test-1", 
+                "test-2"
+            ],
+            "frameLen": 0.1
+        }
+    ]
+
+}

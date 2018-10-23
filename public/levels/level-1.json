@@ -1,0 +1,324 @@
+{
+    "spriteSheet": "world",
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 225,
+                            0, 12
+                        ]
+                    ]
+                }, 
+                {
+                    "name": "ground0l",
+                    "type": "static",
+                    "ranges": [
+                        [
+                            0, 225,
+                            12, 1,
+                            2, 0
+                        ]
+                    ]
+                }, 
+                {
+                    "name": "ground0r",
+                    "type": "static",
+                    "ranges": [
+                        [
+                            0, 225,
+                            12, 1,
+                            2, 1
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground1l",
+                    "type": "static",
+                    "ranges": [
+                        [
+                            0, 225,
+                            13, 2,
+                            2, 0
+                        ]
+                    ]
+                }, 
+                {
+                    "name": "ground1r",
+                    "type": "static",
+                    "ranges": [
+                        [
+                            0, 225,
+                            13, 2,
+                            2, 1
+                        ]
+                    ]
+                },
+
+                {
+                    "name": "wood0l",
+                    "type": "top",
+                    "ranges": [
+                        [
+                            0, 59,
+                            4, 1,
+                            2, 0
+                        ]
+                    ]
+                },{
+                    "name": "wood0r",
+                    "type": "top",
+                    "ranges": [
+                        [
+                            0, 59,
+                            4, 1,
+                            2, 1
+                        ]
+                    ]
+                },
+
+                {
+                    "name": "wood1l",
+                    "ranges": [
+                        [
+                            0, 59,
+                            5, 7,
+                            2, 0
+                        ]
+                    ]
+                },{
+                    "name": "wood1r",
+                    "ranges": [
+                        [
+                            0, 59,
+                            5, 7,
+                            2, 1
+                        ]
+                    ]
+                },
+                {
+                    "name": "pipe1l",
+                    "ranges": [
+                        [
+                            8, 2,
+                            0, 12,
+                            2, 0
+                        ]
+                    ]
+                },{
+                    "name": "pipe1r",
+                    "ranges": [
+                        [
+                            8, 2,
+                            0, 12,
+                            2, 1
+                        ]
+                    ]
+                },
+                {
+                    "name": "pipe0l",
+                    "ranges": [
+                        [
+                            8, 2,
+                            4, 1,
+                            2, 0
+                        ]
+                    ]
+                },{
+                    "name": "pipe0r",
+                    "ranges": [
+                        [
+                            8, 2,
+                            4, 1,
+                            2, 1
+                        ]
+                    ]
+                },
+                {
+                    "name": "pipe2l",
+                    "type": "top",
+                    "ranges": [
+                        [
+                            6, 2,
+                            8, 1,
+                            2, 0
+                        ],
+                        [                
+                            6, 2,
+                            4, 1,
+                            2, 0
+                        ]
+
+                    ]
+                },
+                {
+                    "name": "pipe2r",
+                    "type": "top",
+                    "ranges": [
+                        [
+                            6, 2,
+                            8, 1,
+                            2, 1
+                        ],
+                        [                
+                            6, 2,
+                            4, 1,
+                            2, 1
+                        ]
+                    ]
+                },
+                {
+                    "name": "pipe3l",
+                    "type": "top",
+                    "ranges": [
+                        [
+                            10, 2,
+                            10, 1,
+                            2, 0
+                        ],
+                        [
+                            10, 2,
+                            6, 1,
+                            2, 0
+                        ]
+                    ]
+                },{
+                    "name": "pipe3r",
+                    "type": "top",
+                    "ranges": [
+                        [
+                            10, 2,
+                            10, 1,
+                            2, 1
+                        ],
+                        [
+                            10, 2,
+                            6, 1,
+                            2, 1
+                        ]
+                    ]
+                },
+                {
+                    "name": "box",
+                    "type": "static",
+                    "ranges": [
+                        [2, 2, 3],
+                        [14, 2, 10, 2]
+                    ]
+                },
+                {
+                    "name": "box",
+                    "type": "top",
+                    "ranges": [
+                        [14, 2, 3]
+                    ]
+                },
+                {
+                    "name": "bonus",
+                    "ranges": [
+                        [
+                            1, 5,
+                            1, 1,
+                            2, 1
+                        ]
+
+                    ]
+                },
+                {
+                    "name": "test",
+                    "ranges": [
+                        [
+                            12, 15,
+                            1, 1,
+                            2, 1
+                        ]
+                    ]
+                },
+
+
+
+                {
+                    "name": "box",
+                    "type":"top",
+                    "ranges": [
+                        [
+                            22, 3,
+                            5, 7
+                        ],
+                        [
+                            26, 7,
+                            5, 7
+                        ]
+                        ,
+                        [
+                            27, 3,
+                            4, 1
+                        ]
+                        ,
+                        [
+                            28, 3,
+                            3, 1
+                        ]
+                        ,
+                        [
+                            29, 2,
+                            1, 2
+                        ]
+                        ,
+                        [
+                            33, 3,
+                            5, 2
+                        ]
+                        ,
+                        [
+                            33, 2,
+                            7, 2
+                        ]
+                        ,
+                        [
+                            33, 1,
+                            9, 2
+                        ]
+                        
+                    ]
+                }
+            ]
+        },{
+            "tiles":[
+                {
+                    "pattern": "test-tube-5h",
+                    "ranges": [[17, 7]]
+                }
+            ]
+        }
+    ],
+    "patterns": {
+        "test-tube-5h":{
+            "tiles": [
+                {
+                    "name": "test-tube-0",
+                    "type": "top",
+                    "ranges": [[0, 0]]
+                },
+                {
+                    "name": "test-tube-1",
+                    "ranges": [[0, 1]]
+                },
+                {
+                    "name": "test-tube-2",
+                    "ranges":[[0, 2]]
+                },
+                {
+                    "name": "test-tube-2",
+                    "ranges": [[0, 3]]
+                },
+                {
+                    "name": "test-tube-3",
+                    "ranges": [[0, 4]]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "imageURL": "./img/level.png",
+    "frames": [
+        {
+            "name": "vgik-1",
+            "rect": [
+                32,
+                0,
+                16,
+                16
+            ]
+        },
+        {
+            "name": "vgik-2",
+            "rect": [
+                48,
+                0,
+                16,
+                16
+            ]
+        }
+    ]
+}

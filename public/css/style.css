@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: #666;
+}
+
+canvas, img {
+    image-rendering: pixelated;
+}
+
+canvas {
+    margin: 8px auto;
+    display: block;
+}
+
+
